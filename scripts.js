@@ -1,8 +1,31 @@
 // scripts.js
 
-function abrirVentana() {
+const google = document.getElementById('google');
+const steam = document.getElementById('steam');
+const discord = document.getElementById('discord');
+
+// Función para abrir una nueva ventana al hacer clic en el icono
+google.addEventListener('click', function() {
+    window.open('https://www.google.com/?hl=es', '_blank', 'width=600,height=400');
+});
+
+discord.addEventListener('click', function() {
+    window.open('https://discord.com/app', '_blank', 'width=600,height=400');
+});
+
+steam.addEventListener('click', function() {
+    window.open('https://store.steampowered.com/?l=spanish', '_blank', 'width=600,height=400');
+});
+function abrirMinas() {
     // Abre una nueva ventana con el contenido de otro archivo HTML
-    const ventana = window.open('steam.html', '_blank', 'width=600,height=400');
+    const ventana = window.open('buscaminas.html', '_blank', 'width=600,height=400');
+    // Aplica la clase "ventana-windows" al documento de la nueva ventana
+    ventana.document.body.classList.add('ventana-windows');
+}
+
+function abrirPresen() {
+    // Abre una nueva ventana con el contenido de otro archivo HTML
+    const ventana = window.open('presentacion.html', '_blank', 'width=600,height=400');
     // Aplica la clase "ventana-windows" al documento de la nueva ventana
     ventana.document.body.classList.add('ventana-windows');
 }
