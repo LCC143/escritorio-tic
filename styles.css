@@ -50,18 +50,6 @@ body {
     font-size: 14px; /* Tamaño del texto */
 }
 
-#taskbar {
-    top: -500px;
-    width: 1500px; 
-    height: 48px;
-    position: absolute;
-    bottom: 0;
-    background-image: url('tb.png'); /* Ruta a tu imagen de barra de tareas */
-    background-size: cover;
-    display: flex;
-    justify-content: flex-start;
-}
-
 .task-icon {
     margin-right: 10px; /* Espacio entre los iconos de la barra de tareas */
 }
