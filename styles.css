@@ -51,7 +51,7 @@ body {
 }
 
 #taskbar {
-    top: 12px;
+    top: -500px;
     width: 1500px; 
     height: 48px;
     position: absolute;
