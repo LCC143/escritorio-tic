@@ -54,16 +54,6 @@ body {
     margin-right: 10px; /* Espacio entre los iconos de la barra de tareas */
 }
 
-.task-icon img {
-    width: 24px; /* Ancho del icono de la barra de tareas */
-    height: 24px; /* Altura del icono de la barra de tareas */
-    display: block;
-}
-
-.task-icon span {
-    display: none; /* Oculta el texto debajo de los iconos en la barra de tareas */
-}
-
 .hora, .fecha {
     position: absolute;
     bottom: 25px; /* Ajusta la posición vertical según tus preferencias */
