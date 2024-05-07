@@ -29,6 +29,12 @@ function abrirPresen() {
     // Aplica la clase "ventana-windows" al documento de la nueva ventana
     ventana.document.body.classList.add('ventana-windows');
 }
+function abrirPresen2() {
+    // Abre una nueva ventana con el contenido de otro archivo HTML
+    const ventana = window.open('presentacion.html', '_blank', 'width=600,height=400');
+    // Aplica la clase "ventana-windows" al documento de la nueva ventana
+    ventana.document.body.classList.add('ventana-windows');
+}
 // Obtener el elemento donde se mostrará la hora y la fecha
 const horaElemento = document.getElementById('hora');
 const fechaElemento = document.getElementById('fecha');
